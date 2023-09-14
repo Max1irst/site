@@ -11902,6 +11902,7 @@ h2, .h2 {
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
   position: relative;
   color: #173b6c;
 }
@@ -12279,7 +12280,14 @@ main #testimonials #testimonials_slider {
   max-width: 1200px;
   display: flex;
   justify-content: center;
-  padding-top: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+main #testimonials #testimonials_slider .author {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 main #testimonials #testimonials_slider .slide_item {
   height: 350px;
@@ -12371,17 +12379,13 @@ main #contact .info .address:hover i, main #contact .info .email:hover i, main #
   background: #149ddd;
   color: #fff;
 }
-main #contact .info_map {
-  width: 450px;
-  height: 290px;
-}
 
 @media screen and (min-width: 200px) {
   main {
     margin-left: 0;
   }
   main #section_1 {
-    background-position-x: -470px;
+    background-position: center;
   }
   main #section_1 .hero-container {
     padding: 35px 15px;
@@ -12426,14 +12430,6 @@ main #contact .info_map {
   }
   main section {
     padding: 20px 0;
-  }
-  main .mapouter {
-    height: 250px;
-    width: 350px;
-  }
-  main .gmap_canvas {
-    height: 250px;
-    width: 350px;
   }
   main #portfolio .portfolio_pages li button {
     font-size: 12px;

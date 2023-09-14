@@ -54,6 +54,7 @@ h2 {
   font-weight: bold;
   margin-bottom: 20px;
   padding-bottom: 20px;
+  padding-top: 20px;
   position: relative;
   color: #173b6c;
 }
@@ -511,7 +512,15 @@ main {
       max-width: 1200px;
       display: flex;
       justify-content: center;
-      padding-top: 20px;
+      padding-top: 15px;
+      padding-bottom: 15px;
+
+      .author {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
 
       .slide_item {
         height: 350px;
@@ -619,11 +628,6 @@ main {
         }
       }
     }
-
-    .info_map {
-      width: 450px;
-      height: 290px;
-    }
   }
 }
 
@@ -632,7 +636,7 @@ main {
     margin-left: 0;
 
     #section_1 {
-      background-position-x: -470px;
+      background-position: center;
 
       .hero-container {
         padding: 35px 15px;
@@ -686,16 +690,6 @@ main {
 
     section {
       padding: 20px 0;
-    }
-
-    .mapouter {
-      height: 250px;
-      width: 350px;
-    }
-
-    .gmap_canvas {
-      height: 250px;
-      width: 350px;
     }
 
     #portfolio .portfolio_pages li button {
