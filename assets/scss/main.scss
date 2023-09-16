@@ -631,6 +631,24 @@ main {
   main {
     margin-left: 0;
 
+    #about {
+      h3 {
+        font-weight: 600;
+        font-size: 20px;
+        padding-bottom: 10px;
+      }
+    }
+
+    #contact {
+      padding-bottom: 130px;
+
+      .info {
+        .info_box {
+          padding-left: 10px;
+        }
+      }
+    }
+
     #section_1 {
       background-position: center;
 
@@ -697,6 +715,13 @@ main {
 @media screen and (min-width: 992px) { // setting default row and cols values for non mobile screens
   main { // setting rows margin and cols padding to 0 for mobile screens
     margin-left: 300px;
+
+    #about {
+      h3 {
+        font-weight: 700;
+        font-size: 24px;
+      }
+    }
 
     #section_1 {
       display: flex;

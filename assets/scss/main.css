@@ -12380,6 +12380,17 @@ main #contact .info .address:hover i, main #contact .info .email:hover i, main #
   main {
     margin-left: 0;
   }
+  main #about h3, main #about .h3 {
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 10px;
+  }
+  main #contact {
+    padding-bottom: 130px;
+  }
+  main #contact .info .info_box {
+    padding-left: 10px;
+  }
   main #section_1 {
     background-position: center;
   }
@@ -12434,6 +12445,10 @@ main #contact .info .address:hover i, main #contact .info .email:hover i, main #
 @media screen and (min-width: 992px) {
   main {
     margin-left: 300px;
+  }
+  main #about h3, main #about .h3 {
+    font-weight: 700;
+    font-size: 24px;
   }
   main #section_1 {
     display: flex;

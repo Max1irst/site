@@ -10,8 +10,6 @@ $(document).ready(function () {
         cssEase: 'linear'
     });
     const dots = '.slick-dots'
-    $('.slick-prev').addClass('prev')
-    $('.slick-next').addClass('next')
     $(dots).attr('data-aos', 'fade-up')
     $(dots).addClass('portfolio_pages')
     $('.slick-list').addClass('portfolio_box')
