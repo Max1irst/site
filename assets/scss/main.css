@@ -12380,6 +12380,15 @@ main #contact .info .address:hover i, main #contact .info .email:hover i, main #
   main {
     margin-left: 0;
   }
+  main #portfolio .slick-track {
+    padding-top: 70px;
+  }
+  main #portfolio .portfolio_pages {
+    padding-left: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
   main #about h3, main #about .h3 {
     font-weight: 600;
     font-size: 20px;
@@ -12468,6 +12477,13 @@ main #contact .info .address:hover i, main #contact .info .email:hover i, main #
     width: 500px;
     font-size: 18px;
     letter-spacing: 1px;
+  }
+  main #portfolio .slick-track {
+    padding-top: 0;
+  }
+  main #portfolio .portfolio_pages {
+    padding-left: 0;
+    flex-direction: row;
   }
   main section {
     padding: 60px 0;
