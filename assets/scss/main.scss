@@ -516,15 +516,16 @@ main {
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        margin-bottom: 10px;
       }
 
       .slide_item {
-        height: 350px;
+        height: 400px;
         width: auto;
         display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: space-between;
+        justify-content: start;
 
         p {
           font-style: italic;
@@ -534,11 +535,6 @@ main {
           position: relative;
           border-radius: 6px;
           box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-        }
-
-        i {
-          color: #c3e8fa;
-          font-size: 26px;
         }
 
         img {
@@ -635,6 +631,7 @@ main {
       .slick-track {
         padding-top: 70px;
       }
+
       .portfolio_pages {
         padding-left: 0;
         flex-direction: column;
@@ -758,10 +755,12 @@ main {
         }
       }
     }
+
     #portfolio {
       .slick-track {
         padding-top: 0;
       }
+
       .portfolio_pages {
         padding-left: 0;
         flex-direction: row;

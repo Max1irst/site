@@ -12284,14 +12284,15 @@ main #testimonials #testimonials_slider .author {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  margin-bottom: 10px;
 }
 main #testimonials #testimonials_slider .slide_item {
-  height: 350px;
+  height: 400px;
   width: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-between;
+  justify-content: start;
 }
 main #testimonials #testimonials_slider .slide_item p {
   font-style: italic;
@@ -12301,10 +12302,6 @@ main #testimonials #testimonials_slider .slide_item p {
   position: relative;
   border-radius: 6px;
   box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
-}
-main #testimonials #testimonials_slider .slide_item i {
-  color: #c3e8fa;
-  font-size: 26px;
 }
 main #testimonials #testimonials_slider .slide_item img {
   width: 90px;
