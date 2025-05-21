@@ -1,4 +1,4 @@
-AOS.init();
+AOS.init()
 
 $(document).ready(function () {
     $('#portfolio_slider').slick({
@@ -8,15 +8,14 @@ $(document).ready(function () {
         speed: 500,
         fade: true,
         cssEase: 'linear'
-    });
+    })
     const dots = '.slick-dots'
     $(dots).attr('data-aos', 'fade-up')
     $(dots).addClass('portfolio_pages')
     $('.slick-list').addClass('portfolio_box')
-    $('#slick-slide-control00').text('react / jquery / javascript')
+    $('#slick-slide-control00').text('react / javascript')
     $('#slick-slide-control01').text('tailwind / bootstrap')
     $('#slick-slide-control02').text('cucumber / playwright / cypress')
-
 
     $('#testimonials_slider').slick({
         dots: false,
@@ -32,7 +31,7 @@ $(document).ready(function () {
                     arrows: false,
                     slidesToShow: 2,
                     slidesToScroll: 2,
-                    infinite: true,
+                    infinite: true
                 }
             },
             {
@@ -44,11 +43,11 @@ $(document).ready(function () {
                 }
             }
         ]
-    });
+    })
 
     $('.mobile_nav_toggle').click(function () {
-        $('#navbar').toggleClass('d-none');
-    });
+        $('#navbar').toggleClass('d-none')
+    })
 
     $('#nav_menu a').click(function () {
         $('#navbar').addClass('d-none')
